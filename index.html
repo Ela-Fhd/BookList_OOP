@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="stylesheet" href="./Font/css/all.css" />
+    <link rel="icon" href="./icon/fav-icon.png" />
+    <script src="./Js/script.js" async defer></script>
+    <title>BookList</title>
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <div class="container">
+      <div class="bookList">
+        <button class="btn add-book">+ add book</button>
+        <!-- modal start -->
+        <div class="modal">
+          <div class="modal-header">
+            <span class="modal-header-text">add book</span>
+            <div class="modal-close"><p>&times;</p></div>
+          </div>
+          <div class="modal-body">
+            <form action="" autocomplete="off" onsubmit="">
+              <label for="bookTitle" class="modal-label">Title</label>
+              <input type="text" class="modal-input" id="bookTitle" />
+
+              <label for="bookAuthor" class="modal-label">Author</label>
+              <input type="text" class="modal-input" id="bookAuthor" />
+
+              <label for="bookIsbn" class="modal-label">Publish Year</label>
+              <input type="text" class="modal-input" id="bookPublishYear" />
+
+              <button class="btn btn-block submit-btn">add</button>
+            </form>
+          </div>
+        </div>
+        <!-- modal end -->
+
+        <div class="book-list-table">
+          <table id="book-list-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Publish Year</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
