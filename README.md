@@ -2,7 +2,7 @@
 <h1 align="center">BookList_OOP</h1>
 
 
-![demo](https://github.com/Ela-Fhd/RickAndMorthy/blob/main/public/demo/demo.png)
+![demo](https://github.com/Ela-Fhd/BookList_OOP/blob/main/demo/demo.png)
 
   - &#128204;<a href="http://rickandmorthy.elahe.uno" >Demo</a>
   - 🙋‍♀️Developed by Elahe Fahmideh
